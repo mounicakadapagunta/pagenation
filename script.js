@@ -547,7 +547,7 @@ function loadList() {
 
     pageList = studentsdata.slice(begin, end);
     
-    drawList();
+    loadList();
    
 }
 
